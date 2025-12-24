@@ -1,0 +1,173 @@
+/* ===================common css */
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.title h2{
+  font-size: 48px;
+  color: #282938;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.title p{
+  font-size: 16px;
+  color: #282938;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  width: 406px;
+  margin: 15px 0px;
+}
+.title .titleani{
+    color: #2405F2;
+    margin-left: 0px;
+}
+
+/* ===================common css */
+/* ===========================
+ Navbar css start
+=========================== */
+nav {
+  background: #1C1E53;
+  padding: 16px 0px !important;
+}
+.navbar-nav{
+    column-gap: 32px;
+}
+.nav-item{
+
+}
+.nav-link{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+     font-family: "Poppins", sans-serif;
+     transition: .5s;
+
+
+}
+.nav-item:hover .nav-link{
+    color: #fff;
+
+}
+.nav-btn {
+  background: transparent;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-left: 48px;
+}
+/* ===========================
+ Navbar css end
+=========================== */
+/* ===========================
+ Banner css start
+=========================== */
+.banner{
+    background: #1C1E53;
+    padding: 128px 0px;
+
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    line-height: 74px;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255,0.70);
+    line-height: 28px;
+    width: 558px;
+    padding-top: 16px;
+}
+.banner-btn{
+     background: #FCD980;
+  padding: 16px 56px;
+  border-radius: 41px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  transition: .4s;
+  display: inline-block;
+  margin-top: 48px;
+ 
+
+}
+.banner-btn:hover{
+    border-color: #FCD980;
+    background: transparent;
+    color: #FCD980;
+
+}
+ .view-pricing{
+    margin-left: 30px;
+     font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+ .view-pricing i{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+    opacity: 0;
+}
+ .view-pricing:hover i{
+     right: -50px;
+     opacity: 1;
+
+}
+/* ===========================
+ Banner css end
+=========================== */
+/* ===========================
+ Wrok css end
+=========================== */
+.work{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+.work .work-box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.work .work-card{
+    width: 50%;
+}
+.work .work-card h4{
+   font-size: 32px;
+  color: #282938;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.work .work-card p{
+   font-size: 16px;
+  color: #282938;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  width: 304px;
+}
+
+/* ===========================
+ Wrok css end
+=========================== */
