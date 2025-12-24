@@ -5,6 +5,9 @@ a{
 ul,ol{
     list-style: none;
 }
+.box{
+    display: flex;
+}
 .title h2{
   font-size: 48px;
   color: #282938;
@@ -170,4 +173,49 @@ nav {
 
 /* ===========================
  Wrok css end
+=========================== */
+/* ===========================
+ Project css start
+=========================== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    justify-content: space-between;
+    align-items: center;
+}
+.project .project-ani{
+    color: #2c2076;
+    margin-left: 0px;
+
+}
+.project img:nth-child(2){
+    margin-top: 32px;
+}
+.project .image-box{
+    position: relative;
+    overflow: hidden;
+    
+}
+.project .image-box .overly{
+    width: 52%;
+    height: 100%;
+    background: rgba(28, 30, 83,0.6);
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 38px;
+    color: white;
+}
+
+.project .image-box:hover .overly{
+    left: 0%;
+   
+
+}
+/* ===========================
+ Project css end
 =========================== */
