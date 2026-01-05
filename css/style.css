@@ -219,3 +219,52 @@ nav {
 /* ===========================
  Project css end
 =========================== */
+/* ===========================
+ Feature css start
+=========================== */
+.feature{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+.feature .title p{
+    text-align: center;
+    width: auto;
+}
+.feature .title h2{
+    text-align: center;
+    width: 630px;
+    margin: 0 auto;
+}
+.feature .card{
+    width: 100% !important;
+    padding: 58px 48px 48px 48px;
+    border: 0px;
+    border-radius: 0px;
+
+}
+.feature .card img{
+    width: 6%;
+}
+.feature .card .card-body{
+    padding: 0px !important;
+
+}
+.feature .card .card-title{
+    font-size: 24px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+
+}
+.feature .card .card-text{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+/* ===========================
+ Feature css end
+=========================== */
