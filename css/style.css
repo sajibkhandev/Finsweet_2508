@@ -372,6 +372,69 @@ nav {
 
 }
 
+/* ================
+Contact part
+==================== */
+.contact{
+    margin-bottom: 60px;
+}
+.contact .row{
+    --bs-gutter-x: 0px !important;
+}
+.contact .row img{
+    width: 100%;
+}
+.contact-content{
+    background: #1C1E53;
+    width: 100%;
+    padding-top: 96px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 48px;
+}
+.contact .contact-content h4{
+    color: #fff;
+     font-size: 32px;
+     font-weight: 500;
+      font-family: "Poppins", sans-serif;
+
+
+}
+.contact .contact-content p{
+    color: #F4F6FC;
+     font-size: 16px;
+     font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      padding-top: 8px;
+      padding-bottom: 48px;
+
+
+}
+.contact .contact-content input{
+    width: 100%;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 16px;
+    color: white;
+}
+.contact .contact-content button{
+    width: 100%;
+    padding: 16px 0px;
+    background: #FCD980;
+    border-radius: 41px;
+    color: #1B1C2B;
+     font-size: 18px;
+     font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      margin-top: 18px;
+      margin-bottom: 33px;
+
+}
+/* ================
+Contact part
+==================== */
+
 
 
 
