@@ -321,5 +321,58 @@ nav {
 
 }
 /* ===========================
- Client css end
+ Client css start
 =========================== */
+.faq{
+    padding: 128px 0px;
+}
+.accordion-item{
+    border: 0px;
+}
+.accordion-button.collapsed{
+    background-color: transparent !important;
+    color: black !important;
+}
+.accordion-button{
+    background-color: transparent !important;
+     color: black !important;
+     font-size: 24px !important;
+     font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      box-shadow: 0 0 0 transparent !important;
+    
+}
+.accordion-body{
+    border-bottom: 1px solid #ECECF1;
+    margin: 0px 82px;
+}
+.accordion-button span{
+    color: #2405F2;
+    margin-right: 59px;
+}
+.accordion-header{
+    padding: 20px 0px;
+    border-bottom: 1px solid #ECECF1;
+
+
+}
+.accordion-button::after {
+    background-image: none !important;
+    content: "+" !important;
+    transform:translateY(-40%)  rotate(0) !important;
+    
+    
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    content: "x" !important;
+    transform: translateY(-40%) rotate(0) !important;
+    
+
+}
+
+
+
+
+
