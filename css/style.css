@@ -66,6 +66,7 @@ nav {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   margin-left: 48px;
+  display: inline-block;
 }
 /* ===========================
  Navbar css end
